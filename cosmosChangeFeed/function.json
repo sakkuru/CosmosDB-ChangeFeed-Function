@@ -1,0 +1,22 @@
+{
+    "bindings": [{
+            "type": "cosmosDBTrigger",
+            "name": "inputDocument",
+            "direction": "in",
+            "databaseName": "db01",
+            "collectionName": "collection01",
+            "createIfNotExists": false,
+            "connectionStringSetting": "doc-api_DOCUMENTDB"
+        },
+        {
+            "type": "documentDB",
+            "name": "outputDocument",
+            "direction": "out",
+            "databaseName": "db01",
+            "collectionName": "collection01",
+            "createIfNotExists": false,
+            "connection": "doc-api_DOCUMENTDB"
+        }
+    ],
+    "disabled": false
+}
