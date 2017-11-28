@@ -6,7 +6,8 @@
             "databaseName": "db01",
             "collectionName": "collection01",
             "createIfNotExists": false,
-            "connectionStringSetting": "doc-api_DOCUMENTDB"
+            "connectionStringSetting": "doc-api_DOCUMENTDB",
+            "leaseCollectionName": "leases"
         },
         {
             "type": "documentDB",
